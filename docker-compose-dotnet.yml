@@ -1,0 +1,22 @@
+version: '3'
+services:
+  server:
+    build: server-dotnet
+    command: dotnet run
+    ports:
+      - 8080:8080
+  client:
+    build: client-dotnet
+    command: dotnet run
+    links:
+      - server
+  client2:
+    build: client-dotnet
+    command: dotnet run
+    links:
+      - server
+  client3:
+    build: client-dotnet
+    command: dotnet run    
+    links:
+      - server

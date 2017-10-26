@@ -1,0 +1,10 @@
+/Users/alexander/Desktop/virtual network/server-dotnet/bin/Debug/netcoreapp2.0/server-dotnet.deps.json
+/Users/alexander/Desktop/virtual network/server-dotnet/bin/Debug/netcoreapp2.0/server-dotnet.runtimeconfig.json
+/Users/alexander/Desktop/virtual network/server-dotnet/bin/Debug/netcoreapp2.0/server-dotnet.runtimeconfig.dev.json
+/Users/alexander/Desktop/virtual network/server-dotnet/bin/Debug/netcoreapp2.0/server-dotnet.dll
+/Users/alexander/Desktop/virtual network/server-dotnet/bin/Debug/netcoreapp2.0/server-dotnet.pdb
+/Users/alexander/Desktop/virtual network/server-dotnet/obj/Debug/netcoreapp2.0/server-dotnet.csproj.CoreCompileInputs.cache
+/Users/alexander/Desktop/virtual network/server-dotnet/obj/Debug/netcoreapp2.0/server-dotnet.AssemblyInfoInputs.cache
+/Users/alexander/Desktop/virtual network/server-dotnet/obj/Debug/netcoreapp2.0/server-dotnet.AssemblyInfo.cs
+/Users/alexander/Desktop/virtual network/server-dotnet/obj/Debug/netcoreapp2.0/server-dotnet.dll
+/Users/alexander/Desktop/virtual network/server-dotnet/obj/Debug/netcoreapp2.0/server-dotnet.pdb

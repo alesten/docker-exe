@@ -1,0 +1,32 @@
+version: '3'
+services:
+  server:
+    image: golang:jessie
+    working_dir: /go/src
+    command: go run server.go
+    volumes:
+      - ./server-go:/go/src
+  client:
+    image: golang:jessie
+    working_dir: /go/src
+    command: go run client.go
+    volumes:
+      - ./client-go:/go/src
+    links:
+      - server
+  client1:
+    image: golang:jessie
+    working_dir: /go/src
+    command: go run client.go
+    volumes:
+      - ./client-go:/go/src
+    links:
+      - server
+  client2:
+    image: golang:jessie
+    working_dir: /go/src
+    command: go run client.go
+    volumes:
+      - ./client-go:/go/src
+    links:
+      - server
